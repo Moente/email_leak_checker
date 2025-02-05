@@ -1,11 +1,11 @@
-from selenium import webdriver
+from selenium import webdriver                            
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 from datetime import datetime, timedelta
 
 # Deine E-Mail-Adresse
-email = "richter.helena@web.de"
+email = "Test_Email_Adresse@gmail.com"
 
 # Webdriver-Setup mit optionalem Headless-Modus
 options = webdriver.ChromeOptions()
